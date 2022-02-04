@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>dwa plus dwa</title>
+<script>
+</script>
+</head>
+<body><h1>Matematyka jest prosta</h1>
+<a href="https://www.bing.com/videos/search?view=detail&mid=109AB72C66B42928436C109AB72C66B42928436C&q=matematyka jest prosta&shtp=GetUrl&shid=751db5bb-9080-4622-a0c9-6e09424b3c71&shtk=TWF0ZW1hdHlrYSA5OiBHZW9tZXRyaWEgamVzdCBwcm9zdGEgQ3ouIDE%3D&shdk=cHJvZi4gS3J6eXN6dG9mIENoZcWCbWnFhHNraQ%3D%3D&shhk=grosAQ9LeEnd8UFPa0peo6CeiIYA9pyKoFJ1OsEzTTE%3D&form=VDSHOT&shth=OVP.37iIbdFo5xij5KUisYmBkAEsDh " >Geometria jest prosta</a>
+<h1> 2+2 = ? </h1>
+<ol>
+<li>>4</li>
+<li><5</li>
+<li onclick="policz(2,2)">=4</li>
+<li>>5</li>
+<li><4</li>
+</ol>
+<h1>Która odpowiedź jest najlepsza? </h1>
+<ul>
+<li>kliknij w prawidłową odpowiedź aby sprawdzić!</li>
+<li>kliknij w prawidłową odpowiedź aby sprawdzić!</li>
+<li>kliknij w prawidłową odpowiedź aby sprawdzić!</li>
+</ul>
+<button onclick="podpowiedz()">podpowiedź</button>
+<script type = "text/javascript">
+function fun() {
+alert ("This is an alert dialog box");
+}
+</script>
+<script>
+function policz(a,b){
+alert("= "+(a+b));
+return a+b;
+}
+function podpowiedz(){
+alert("Czy nie wstyd Ci to sprawdzać" );
+}
+</script>
+</body>
+</html>
